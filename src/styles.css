@@ -3,3 +3,10 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+.badge{
+    @apply bg-gray-100 text-gray-600 text-sm uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
+}
